@@ -225,5 +225,5 @@ bitmexPrice = () => {
 }
 
 http.listen(3000, function () {
-    console.log('listening on localhost:3000');
+    console.log('listening');
 });

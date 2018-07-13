@@ -1,8 +1,4 @@
-var app = require('express'),
-    app = express(),
-    server = require('http').createServer(app),
-    io = require('socket.io').listen(server),
-    
+var app = require('express')();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 const moment = require("moment");
